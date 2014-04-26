@@ -1,0 +1,42 @@
+/* size for horizontal theme */
+.smw2.smw2-size810 {
+    width:810px !important;
+    height: 90px !important;
+	.smw2__item {
+	    width:405px !important;
+	}
+	.smw2__item__info__img {
+	    width:85px !important;
+		img {
+		    max-width: 75px !important;
+		}
+	}
+	.smw2__item__info {
+	    width: 92px;
+	    float: left;
+	}
+	.smw2__item__prices {
+	    width: 280px;
+	    float: left;
+	    padding-top: 4px;
+	}
+	.smw2__item__prices__item {
+	    width: 245px;
+	}
+	.smw2__item__prices__item.swm2__allpropos {
+		padding-top: 2px;
+	}
+	.smw2__item__info__img {
+		height: 86px;
+	}
+	.smw2__footer {
+		top: -10px;
+		position: relative;
+	}
+	.smw2__fr {
+		padding-right: 15px;
+	}
+	.smw2__fl {
+		padding-left: 4px;
+	}
+}

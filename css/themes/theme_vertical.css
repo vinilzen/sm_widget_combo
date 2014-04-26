@@ -1,0 +1,382 @@
+.smw2 *{
+    font-family:"Tahoma",sans-serif !important;
+    outline:none;
+    -webkit-font-smoothing:antialiased !important;
+    -webkit-appearance:none !important;
+    -webkit-tap-highlight-color:transparent !important;
+    margin:0;
+    padding:0}
+.smw2 a{text-decoration:none !important}
+.smw2 .clearfix:after,.smw2 .nav:after,.smw2 .nav_hor:after,.smw2 .where-to-buy__towns:after,.smw2 .smw2__head:after{
+    visibility:hidden;
+    display:block;
+    content:"";
+    clear:both;
+    height:0}
+.smw2 .db{display:block}
+.smw2 .dib{display:inline-block !important}
+.smw2 .pull-left{float:left !important}
+.smw2 .pull-right{float:right !important}
+.smw2 .center{overflow:hidden !important}
+.smw2 .tac{text-align:center !important}
+.smw2 .tal{text-align:left !important}
+.smw2 .tar{text-align:right !important}
+.smw2 .nav,.smw2 .nav_hor,.smw2 .where-to-buy__towns{list-style:none}
+.smw2 .nav_hor{
+    margin:0;
+    padding:0;
+    border:0;
+    overflow:hidden;
+    *zoom:1;
+    overflow:visible}
+.smw2 .nav_hor li{
+    list-style-image:none;
+    list-style-type:none;
+    margin-left:0;
+    white-space:nowrap;
+    display:inline;
+    float:left;
+    padding-left:4px;
+    padding-right:4px}
+.smw2 .nav_hor li:first-child,.smw2 .nav_hor li.first{padding-left:0}
+.smw2 .nav_hor li:last-child{padding-right:0}
+.smw2 .nav_hor li.last{padding-right:0}
+.smw2{
+    width:300px;
+    border:1px solid #cfcfcf;
+    -webkit-border-radius:11px;
+    -moz-border-radius:11px;
+    -ms-border-radius:11px;
+    -o-border-radius:11px;
+    border-radius:11px;
+    -webkit-background-clip:padding;
+    -moz-background-clip:padding;
+    background-clip:padding-box;
+    background-color:#fff;
+    text-align:left}
+.smw2 .smw2__head{
+    background-color:#3f3f3f;
+    padding:0 10px 0 14px;
+    height:27px;
+    line-height:27px;
+    -webkit-border-radius:11px 11px 0 0;
+    -moz-border-radius:11px 11px 0 0;
+    -ms-border-radius:11px 11px 0 0;
+    -o-border-radius:11px 11px 0 0;
+    border-radius:11px 11px 0 0}
+.smw2 .smw2__head__label{color:#fff;font-size:10px}
+.smw2 .smw2__head__label span{display:block}
+.smw2 .smw2__head__label em{display:none}
+.smw2 .smw2__towns{
+    position:relative;
+    padding:0 13px 0 0;
+    line-height:25px;
+    cursor:pointer}
+.smw2 .smw2__towns:after{
+    content:'';
+    position:absolute;
+    right:0;
+    top:13px;
+    display:block;
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-top:4px solid #fff}
+.smw2 .smw2__towns ul{
+    display:none;
+    position:absolute;
+    margin:0;
+    padding:0;
+    list-style:none}
+.smw2 .smw2__towns ul a{color:#3f3f3f}
+.smw2 .smw2__towns li{padding:0;margin:0}
+.smw2 .smw2__towns span,.smw2 .smw2__towns a{
+    color:#fff;
+    font-size:12px;
+    text-decoration:underline}
+.smw2 .smw2__towns span:hover,.smw2 .smw2__towns a:hover{text-decoration:none}
+.smw2 .smw2__item{border-bottom:1px solid #e7e7e7;padding:0 0 9px 0}
+.smw2 .smw2__item__info{display:table;margin:15px}
+.smw2 .smw2__item__info__title{
+    display:table-cell;
+    vertical-align:middle;
+    height: 33px;
+    overflow: hidden}
+.smw2 .smw2__item__info__title a{
+    display:inline-block;
+    font-size:14px;
+    font-weight: bold !important;
+    color:#000}
+.smw2 .smw2__item__info__img{
+    display:table-cell;
+    vertical-align:middle;
+    width:70px;
+    text-align:center;
+    height: 65px}
+.smw2 .smw2__item__info__img img{
+    display:inline-block;
+    max-height:65px;
+    max-width:70px;
+    height: auto;}
+.smw2 .smw2__item__prices__item{
+    cursor:pointer;
+    overflow:hidden;
+    width:100%;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+    padding:0 14px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box}
+.smw2 .smw2__item__prices__item:hover,.smw2 .smw2__item__prices__item:focus,.smw2 .smw2__item__prices__item:active,.smw2 .smw2__item__prices__item.active{background-color:#f1f0f0}
+.smw2 .smw2__item__prices__item:hover .smw2__item__prices__name,.smw2 .smw2__item__prices__item:focus .smw2__item__prices__name,.smw2 .smw2__item__prices__item:active .smw2__item__prices__name,.smw2 .smw2__item__prices__item.active .smw2__item__prices__name{
+    color:#2797d7;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s}
+.smw2 .smw2__item__prices__name,.smw2 .smw2__item__prices__rate,.smw2 .smw2__item__prices__cost,.smw2 .smw2__item__prices__rate i{
+    line-height:15px;
+    height:15px;
+    float:left}
+.smw2 .smw2__item__prices__name{
+    color:#000;
+    font-size:10px;
+    width:104px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0 10px 0 0;
+    overflow:hidden}
+.smw2 .smw2__item__prices__rate{
+    background-image:url('../../images/sprite-stars-s225e974b76.png');
+    background-position:0 -37px;
+    background-repeat:no-repeat;
+    background-repeat:repeat-x;
+    position:relative;
+    height:12px;
+    width:65px;
+    position:relative;
+    top:2px}
+.smw2 .smw2__item__prices__rate span{
+    background-image:url('../../images/sprite-stars-s225e974b76.png');
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-repeat:repeat-x;
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+    height:12px}
+.smw2 .smw2__item__prices__rate i{display:none}
+.smw2 .smw2__item__prices__cost,.smw2 .smw2__item__prices__rate i{
+    display:block;
+    color:#000;
+    font-size:11px;
+    text-align:right;
+    float:none;
+    overflow:hidden}
+.smw2 .smw2__item__prices__bucket{
+    background-image:url('../../images/sprite-sb47c565bfb.png');
+    background-position:0 -83px;
+    background-repeat:no-repeat;
+    height:10px;
+    width:13px;
+    display:block;
+    display:none}
+.smw2 .smw2__item__prices__buy{
+    display:none;
+    color:#fff;
+    font-size:10px;
+    width:35px;
+    height:13px;
+    line-height:13px;
+    -webkit-background-clip:padding;
+    -moz-background-clip:padding;
+    background-clip:padding-box;
+    background-color:#0cf;
+    text-transform:lowercase;
+    text-align:center}
+.smw2 .smw2__footer{overflow:hidden;padding:10px 15px}
+.smw2 .smw2__logo{
+    color:#c5c5c5;
+    font-size:9px;
+    text-align:center;
+    text-decoration:none !important;
+    float:left;
+    display:block}
+.smw2 .smw2__logo__img{
+    background-image:url('../../images/sprite-sb47c565bfb.png');
+    background-position:0 0;
+    background-repeat:no-repeat;
+    height:18px;
+    width:81px;
+    display:block;
+    margin-bottom:3px !important}
+.smw2 .smw2__ya{
+    color:#c5c5c5;
+    font-size:9px;
+    padding:0;
+    float:right}
+.smw2 .smw2__ya a{
+    font-size: 9px !important;
+    font-weight:700;
+    font-weight: bold;
+    text-decoration:none;
+    color:#c5c5c5 !important}
+.smw2 .where-to-buy__trigger{
+    position:relative;
+    text-decoration:none !important;
+    line-height:1;
+    border-bottom:1px dashed #003e7d;
+    font-weight:300;
+    position:relative;
+    top:0}
+.smw2 .where-to-buy__trigger:hover{border-bottom:0}
+.smw2 .where-to-buy{
+    display:inline-block;
+    margin:0 -11px 0 3px;
+    padding:0 18px 0 4px;
+    position:relative;
+    font-weight:300 !important}
+.smw2 .where-to-buy a{font-size:10px}
+.smw2 .where-to-buy a:hover{border:none}
+.smw2 .where-to-buy:after{
+    content:'';
+    display:block;
+    position:absolute;
+    right:6px;
+    top:50%;
+    width:10px;
+    height:10px}
+.smw2 .where-to-buy .search{
+    position:absolute;
+    left:0;
+    width:200px;
+    z-index:1000;
+    display:none;
+    cursor:pointer;
+    -webkit-box-shadow:0 2px 1px #979797;
+    -moz-box-shadow:0 2px 1px #979797;
+    box-shadow:0 2px 1px #979797}
+.smw2 .where-to-buy .search a{border-bottom:0;text-decoration:none}
+.smw2 .where-to-buy input[type="text"]{
+    width:200px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0 4px;
+    margin:0;
+    border-width:1px;
+    display:block;
+    height:17px;
+    line-height:17px}
+.smw2 .where-to-buy input[type="submit"]{
+    position:absolute;
+    right:4px;
+    top:2px;
+    border:none;
+    background-image:url('../../images/sprite-sb47c565bfb.png');
+    background-position:0 -43px;
+    background-repeat:no-repeat;
+    height:15px;
+    width:14px;
+    display:block;
+    background-color:#fff;
+    cursor:pointer}
+.smw2 .where-to-buy__towns{width:100%;position:relative}
+.smw2 .where-to-buy__towns li{
+    overflow:hidden;
+    display:block;
+    background:none;
+    float:none;
+    padding:0 !important}
+.smw2 .where-to-buy__towns a{
+    background:#fff;
+    height:23px;
+    line-height:23px;
+    display:block;
+    color:#1a1a1a;
+    border-bottom:1px solid #f1f1f1;
+    padding:0 0 0 9px}
+.smw2 .where-to-buy__towns a:hover{background:#f0f2fe}
+.smw2{width:125px}
+.smw2 .smw2__head{padding:0 9px}
+.smw2 .smw2__head__label span{display:none}
+.smw2 .smw2__head__label em{display:block;font-style:normal}
+.smw2 .smw2__item{border-bottom:1px solid #e7e7e7;padding:0 0 9px 0}
+.smw2 .smw2__item__info{
+    position:relative;
+    margin:10px;
+    padding-bottom:80px;
+    text-align:center}
+.smw2 .smw2__item__info__title{vertical-align:middle;display:block}
+.smw2 .smw2__item__info__title span{
+    display:inline-block;
+    color:#000;
+    font-size:12px}
+.smw2 .smw2__item__info__img{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    display:block;
+    vertical-align:middle;
+    text-align:center}
+.smw2 .smw2__item__prices__item{padding:0 10px}
+.smw2 .smw2__item__prices__item:hover{background-color:#f1f0f0}
+.smw2 .smw2__item__prices__item:hover .smw2__item__prices__cost,.smw2 .smw2__item__prices__item:hover .smw2__item__prices__rate i,.smw2 .smw2__item__prices__rate .smw2__item__prices__item:hover i,.smw2 .smw2__item__prices__item:hover .smw2__item__prices__bucket,.smw2 .smw2__item__prices__item:hover .smw2__item__prices__buy{display:none}
+.smw2 .smw2__item__prices__item:hover .smw2__item__prices__name{
+    display:block;
+    width:80px;
+    padding:0}
+.smw2 .smw2__item__prices__item:hover .smw2__item__prices__rate{
+    display:block;
+    width:25px}
+.smw2 .smw2__item__prices__item:hover .smw2__item__prices__rate i{
+    display:block;
+    width:auto;
+    float:none;
+    position:absolute;
+    left:17px;
+    top:-2px}
+.smw2 .smw2__item__prices__name{display:none}
+.smw2 .smw2__item__prices__rate{
+    background-image:url('../../images/sprite-stars-s225e974b76.png');
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-repeat:no-repeat;
+    display:none}
+.smw2 .smw2__item__prices__rate span{display:none}
+.smw2 .smw2__item__prices__rate i{display:block;font-style:normal}
+.smw2 .smw2__item__prices__cost,.smw2 .smw2__item__prices__rate i{
+    display:block;
+    float:left;
+    width:57px;
+    font-size:10px}
+.smw2 .smw2__item__prices__bucket{
+    display:block;
+    float:left;
+    position:relative;
+    top:2px}
+.smw2 .smw2__item__prices__buy{
+    display:block;
+    float:left;
+    position:relative;
+    top:2px;
+    left:2px}
+.smw2 .smw2__footer{padding:7px 0 11px 0;text-align:center}
+.smw2 .smw2__logo{margin:0 auto;float:none}
+.smw2 .smw2__logo__img{margin:0 auto}
+.smw2 .smw2__ya{float:none;padding-top:7px}
+.smw2 .where-to-buy__trigger {
+    border-bottom: 0 none;
+    display: block;
+    font-weight: 300;
+    height: 10px;
+    line-height: 1;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none !important;
+    top: 0;
+}

@@ -1,0 +1,17 @@
+.smw2 .where-to-buy .search {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    z-index: 1000;
+    display: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px 1px #979797;
+    -moz-box-shadow: 0 2px 1px #979797;
+    box-shadow: 0 2px 1px #979797}
+.smw2 .smw2__item__info__img img{
+    /* fix by ticket #495 */
+    width: auto;
+    height: auto;}
+.smw2 .smw2__item__prices__item__virtual {
+    display: none;
+}

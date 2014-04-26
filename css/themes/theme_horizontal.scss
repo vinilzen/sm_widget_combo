@@ -1,0 +1,348 @@
+.smw2 {
+    width:725px;
+    height:100px;
+    position:relative;
+    text-align:left;
+    border:1px solid #cfcfcf;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -ms-border-radius:6px;
+    -o-border-radius:6px;
+    border-radius:6px;
+    -webkit-background-clip:padding;
+    -moz-background-clip:padding;
+    background-clip:padding-box;
+    background-color:#fff;    
+    * {
+        font-family:"Arial", sans-serif !important;
+        outline:none;
+        -webkit-font-smoothing:antialiased !important;
+        -webkit-appearance:none !important;
+        -webkit-tap-highlight-color:transparent !important;
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        text-decoration:none !important
+    }
+    .clearfix:after, .nav:after, .nav_hor:after, .where-to-buy__towns:after, .smw2__head:after {
+        visibility:hidden;
+        display:block;
+        content:"";
+        clear:both;
+        height: 0;
+    }
+    .nav, .nav_hor, .where-to-buy__towns {
+        list-style:none;
+    }
+
+    .smw2__head__label {
+        padding: 2px 0 0 7px;
+        color:#fff;
+        font-size:10px;
+        display: block;
+        float: left;
+        span {
+            color:#838383;
+        }
+    }
+    .smw2__towns {
+        position:relative;
+        padding:0 13px 0 0;
+        cursor:pointer;
+        &:after {
+            content:'';
+            position:absolute;
+            right:0;
+            top:13px;
+            display:block;
+            border-left:4px solid transparent;
+            border-right:4px solid transparent;
+            border-top:4px solid #fff
+        }
+         ul {
+            display:none;
+            position:absolute;
+            margin:0;
+            padding:0;
+            list-style:none
+        }
+         span,  a {
+            color:#34a9d4;
+            font-size:12px;
+            text-decoration:underline;
+        }
+         span:hover,  a:hover {
+            text-decoration:none;
+        }
+    }
+    .smw2__item {
+        border-bottom:1px solid #e7e7e7;
+        padding:0 0 9px 0
+    }
+    .smw2__item__info {
+        display:table;
+        margin:15px
+    }
+    .smw2__item__info__img {
+        display:table-cell;
+        vertical-align:middle;
+        height:94px;
+        width:70px;
+        text-align:center;
+        img {
+            display:inline-block;
+            max-height:68px;
+            max-width:70px
+        }
+    }
+    .smw2__item__prices__item {
+        cursor:pointer;
+        overflow:hidden;
+        width:100%;
+        padding:2px 3px;
+        margin-top: -2px;
+        -webkit-transition:all 0.3s;
+        -moz-transition:all 0.3s;
+        -o-transition:all 0.3s;
+        transition:all 0.3s;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        &:first-child {
+            margin-top: -1px;
+        }
+    }
+    .smw2__item__prices__item:hover, .smw2__item__prices__item:focus, .smw2__item__prices__item:active, .smw2__item__prices__item.active {
+        background-color:#f1f0f0;
+    }
+    .smw2__item__prices__item:hover .smw2__item__prices__name, .smw2__item__prices__item:focus .smw2__item__prices__name, .smw2__item__prices__item:active .smw2__item__prices__name, .smw2__item__prices__item.active .smw2__item__prices__name {
+        color:#2797d7;
+        -webkit-transition:all 0.3s;
+        -moz-transition:all 0.3s;
+        -o-transition:all 0.3s;
+        transition:all 0.3s
+    }
+    .smw2__item__prices__name, .smw2__item__prices__rate, .smw2__item__prices__cost {
+        line-height:15px;
+        height:15px;
+        float:left
+    }
+    .smw2__item__prices__name {
+        color:#000;
+        font-size:10px;
+        width:93px;
+        font-weight: bold;
+        text-transform: uppercase;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        padding: 0;
+        overflow:hidden;
+    }
+    .smw2__item__prices__rate {
+        background-image:url('../img/sprite-stars-s225e974b76.png');
+        background-position:0 -37px;
+        background-repeat:no-repeat;
+        background-repeat:repeat-x;
+        position:relative;
+        height:12px;
+        width:65px;
+        position:relative;
+        top:2px;
+        span {
+            background-image:url('../img/sprite-stars-s225e974b76.png');
+            background-position:0 0;
+            background-repeat:no-repeat;
+            background-repeat:repeat-x;
+            display:block;
+            position:absolute;
+            left:0;
+            top:0;
+            height:12px;
+        }
+        i {
+            display:none;
+        }
+    }
+    .smw2__item__prices__cost {
+        display:block;
+        color:#000;
+        font-size:12px;
+        text-align:right;
+        float:none;
+        overflow:hidden;
+        font-weight: bold;
+        padding-right: 2px;
+    }
+    .smw2__logo {
+        color:#838383;
+        font-size:9px;
+        text-align:center;
+        text-decoration:none !important;
+        b {
+            color: #33a8d3;
+            font-weight: normal;
+            &:hover {
+                text-decoration: underline !important;   
+            }
+        }
+    }
+    .smw2__ya {
+        color:#838383;
+        font-size:9px;
+        padding:0 7px 0 6px;
+        display: inline-block;
+        a {
+            font-size: 8.5px !important;
+            font-weight: normal;
+            text-decoration:none;
+            color:#33a8d3 !important;
+            &:hover {
+                text-decoration: underline !important;   
+            }
+        }
+    }
+
+    .where-to-buy__trigger {
+        position:relative;
+        text-decoration: underline !important;
+        &:hover {
+            border-bottom:0;
+            text-decoration: none !important;
+        }
+    }
+    .where-to-buy {
+        display:inline-block;
+        margin:0 -11px 0 3px;
+        padding:0 18px 0 4px;
+        position:relative;
+        font-weight:300 !important;
+        &:after {
+            border-left: 4px solid rgba(0, 0, 0, 0);
+            border-right: 4px solid rgba(0, 0, 0, 0);
+            border-top: 4px solid #34a9d4;
+            content: "";
+            display: block;
+            position: absolute;
+            right: 7px;
+            top: 9px;
+        }
+        a {
+            font-size:10px;
+            position: relative;
+            top: -3px;
+            // &:hover {border:none;}
+        }
+        .search {
+            position:absolute;
+            left:0;
+            width:200px;
+            z-index:1000;
+            display:none;
+            cursor:pointer;
+            -webkit-box-shadow:0 2px 1px #979797;
+            -moz-box-shadow:0 2px 1px #979797;
+            box-shadow:0 2px 1px #979797;
+        }
+        input[type="text"] {
+            width:200px;
+            -webkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            box-sizing:border-box;
+            padding:0 4px;
+            margin:0;
+            border-width:1px;
+            display:block;
+            height:17px;
+            line-height:17px
+        }
+        input[type="submit"] {
+            position:absolute;
+            right:4px;
+            top:2px;
+            border:none;
+            background-image:url('../img/sprite-sb47c565bfb.png');
+            background-position:0 -43px;
+            background-repeat:no-repeat;
+            height:15px;
+            width:14px;
+            display:block;
+            background-color:#fff;
+            cursor:pointer
+        }
+    }
+    .where-to-buy__towns {
+        width:100%;
+        position:relative;
+        background-color: #fff;
+        box-shadow: 0 2px 1px #979797;
+        li {
+            overflow:hidden;
+            display:block;
+            background:none;
+            float:none;
+            padding:0 !important
+        }
+        a {
+            background:#fff;
+            height:23px;
+            line-height:23px;
+            display:block;
+            color:#1a1a1a;
+            border-bottom:1px solid #f1f1f1;
+            padding:2px 0 0 9px;
+            margin-bottom: -2px;
+            &:hover {
+                background:#f0f2fe;
+            }
+        }
+    }
+
+    .smw2__body {
+        overflow:hidden;
+        float:left;
+        height:83px;
+    }
+    .smw2__item {
+        border-bottom:1px solid #e7e7e7;
+        padding:0;
+        float:left;
+        width:315px;
+        height:100px;
+    }
+    .smw2__item__info {
+        position:relative;
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+
+    .smw2__item__info__title {
+        display:table-cell;
+        vertical-align:middle;
+        height: 18px;
+        overflow: hidden;
+        text-align:left;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        padding:0 0 0 3px;
+        font-size:14px;
+        a {
+            display:inline-block;
+            font-size:14px;
+            font-weight: bold !important;
+            color:#000;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+    .smw2__footer {
+        width:100%;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        padding:0;
+    }
+}

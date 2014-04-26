@@ -1,0 +1,78 @@
+.smw2{
+    width:810px;
+    height:90px;
+    /* main size
+    w: 100%,   h: 100%,
+    */
+}
+.smw2 .smw2__body{
+    height:90px; /* h 100%*/
+}
+.smw2 .smw2__item__info__img{
+    width:78px;
+    /* ~9.6% */
+}
+.smw2 .smw2__item__info__img img{
+    max-height:81px;
+    max-width:65px
+   /* w: ~8%  h: 70%*/
+}
+.smw2 .smw2__item__info__img{
+    height:90px; /* 100% */
+    width:70px /* ~8,5% */
+}
+.smw2 .smw2__item__prices__name{
+    font-size:10px;
+    width:115px; /* 14.3% */
+    padding:0 10px 0 0;
+}
+.smw2 .smw2__item__prices__bucket{
+    background-position:0 -83px;
+    height:9px; /* 10% */
+    width:16px; /* ~2% */
+}
+.smw2 .smw2__item__prices__buy{
+    font-size:10px;
+    width:40px; /* ~5% */
+    height:12px;
+    line-height:12px;
+    /* 13% */
+}
+.smw2 .smw2__logo__img{background-image:url('../../images/sprite-sb47c565bfb.png');
+    height:16px; /* 18% */
+    width:89px; /* 11% */
+}
+.smw2 .where-to-buy:after{
+    width:12px; /* 1,5% */
+    height:9px
+    /* 10% */
+}
+.smw2 .where-to-buy .search{
+    width:224px; /* 27.6% */
+}
+.smw2 .where-to-buy input[type="text"]{
+    width:224px; /* 27.6% */
+    height:15px;
+    line-height:15px
+    /* 17% */
+}
+.smw2 .where-to-buy input[type="submit"]{
+    height:13px; /* 15% */
+    width:16px; /* ~2% */
+}
+.smw2 .smw2__item{
+    width:352px; /* ~43.5% */
+    height:90px /* 100% */}
+.smw2 .smw2__item__info__title{
+    width:275px; /* ~34% */
+    font-size:13px /* h: 14% */}
+.smw2 .smw2__item__prices{
+    width:275px; /* ~34% */
+}
+.smw2 .smw2__footer{
+    width:454px; /* ~56% */
+}
+.smw2 .smw2__head .smw2__towns:after{
+    right:9px; /* w  ~0.7% */
+    top:5px;  /* h ~12,5% */
+}
